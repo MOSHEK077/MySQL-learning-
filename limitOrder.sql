@@ -1,0 +1,16 @@
+USE data_source;
+SELECT * FROM data1;
+
+SELECT * FROM data1
+LIMIT 3;
+
+SELECT * FROM data1
+ORDER BY marks DESC
+LIMIT 1;
+
+SELECT * FROM data1
+LIMIT 0, 3;
+
+SELECT * FROM data1
+ORDER BY id ASC
+LIMIT 5;
